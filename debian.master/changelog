@@ -1,4 +1,4 @@
-linux (4.11.0-14.21) artful; urgency=low
+linux (4.11.0-14.22) artful; urgency=low
 
   * CVE-2017-1000112
     - udp: consistently apply ufo or fragmentation
@@ -8,6 +8,8 @@ linux (4.11.0-14.21) artful; urgency=low
 
   * linux 4.11.0-13.19 ADT test failure with linux 4.11.0-13.19 (LP: #1709590)
     - SAUCE: ZFS: Don't take spin lock on rwlock owner
+
+  * [Config] select gcc-6 explicitly
 
  -- Andy Whitcroft <apw@canonical.com>  Fri, 11 Aug 2017 09:13:27 +0100
 
